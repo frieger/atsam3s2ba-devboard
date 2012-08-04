@@ -1,0 +1,753 @@
+# EESchema Netlist Version 1.1 created  04/08/2012 17:59:51
+(
+ ( /5017DC89/501D3FF7 $noname  C21 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5017DC89/501D3FB3 $noname  C20 2.2uF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5017DC89/501D3E52 $noname  C18 2.2uF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5017DC89/501D3DF8 $noname  C19 2.2uF {Lib=C}
+  (    1 GND )
+  (    2 /MCU/VDDCORE )
+ )
+ ( /5017DC89/501D1F10 $noname  HOLE2 SCREWHOLE_FR {Lib=SCREWHOLE_FR}
+  (    1 GND )
+ )
+ ( /5017DC89/501D1F0B $noname  HOLE1 SCREWHOLE_FR {Lib=SCREWHOLE_FR}
+  (    1 GND )
+ )
+ ( /5017DC89/501C422F $noname  fid2 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /5017DC89/501C4218 $noname  fid1 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /5017DC89/501C3B57 $noname  JP3 JUMPER {Lib=JUMPER}
+  (    1 N-000005 )
+  (    2 /MCU/usb-minus )
+ )
+ ( /5017DC89/501C3B55 $noname  JP4 JUMPER {Lib=JUMPER}
+  (    1 N-000003 )
+  (    2 /MCU/usb-plus )
+ )
+ ( /5017DC89/501C3564 $noname  SW2 reset-switch {Lib=SWITCH}
+  (    1 N-000063 )
+  (    2 GND )
+ )
+ ( /5017DC89/501C34CF $noname  SW1 erase-switch {Lib=SWITCH}
+  (    1 N-000064 )
+  (    2 +3.3V )
+ )
+ ( /5017DC89/501BAE3F $noname  C17 10_uF {Lib=CP1}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5017DC89/501BABD2 $noname  C16 as_needed {Lib=C}
+  (    1 /MCU/xout )
+  (    2 GND )
+ )
+ ( /5017DC89/501BAB71 $noname  C14 as_needed {Lib=C}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /5017DC89/501BAB70 $noname  C15 as_needed {Lib=C}
+  (    1 /MCU/xin )
+  (    2 GND )
+ )
+ ( /5017DC89/501BAB5A $noname  C13 as_needed {Lib=C}
+  (    1 N-000016 )
+  (    2 GND )
+ )
+ ( /5017DC89/501BA06E $noname  D2 LED {Lib=LED}
+  (    1 +3.3V )
+  (    2 N-000015 )
+ )
+ ( /5017DC89/501BA06C $noname  R4 R {Lib=R}
+  (    1 N-000015 )
+  (    2 GND )
+ )
+ ( /5017DC89/501BA057 $noname  R3 R {Lib=R}
+  (    1 N-000018 )
+  (    2 GND )
+ )
+ ( /5017DC89/501BA038 $noname  D1 LED {Lib=LED}
+  (    1 N-000071 )
+  (    2 N-000018 )
+ )
+ ( /5017DC89/501BA002 $noname  C12 100_uF {Lib=CP1}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5017DC89/501A872D $noname  P14 CONN_2 {Lib=CONN_2}
+  (    1 ? )
+  (    2 ? )
+ )
+ ( /5017DC89/501A840B $noname  C10 2.2uF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5017DC89/501A8404 $noname  C8 100nF {Lib=C}
+  (    1 /MCU/VDDCORE )
+  (    2 GND )
+ )
+ ( /5017DC89/501A83F9 $noname  C11 100nF {Lib=C}
+  (    1 /MCU/VDDCORE )
+  (    2 GND )
+ )
+ ( /5017DC89/501A83E1 $noname  C9 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5017DC89/501A7673 $noname  C6 100nF {Lib=C}
+  (    1 /MCU/VDDCORE )
+  (    2 GND )
+ )
+ ( /5017DC89/501A7662 $noname  C4 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5017DC89/501A7633 $noname  C3 100nF {Lib=C}
+  (    1 /MCU/VDDCORE )
+  (    2 GND )
+ )
+ ( /5017DC89/501A7625 $noname  C5 100nF {Lib=C}
+  (    1 GND )
+  (    2 /MCU/VDDCORE )
+ )
+ ( /5017DC89/501A75EB $noname  C2 10uF {Lib=C}
+  (    1 GND )
+  (    2 +3.3V )
+ )
+ ( /5017DC89/501A75D5 $noname  C7 2.2uF {Lib=C}
+  (    1 GND )
+  (    2 N-000054 )
+ )
+ ( /5017DC89/501A45F0 $noname  R2 R {Lib=R}
+  (    1 N-000002 )
+  (    2 N-000003 )
+ )
+ ( /5017DC89/501A45E9 $noname  R1 R {Lib=R}
+  (    1 N-000004 )
+  (    2 N-000005 )
+ )
+ ( /5017DC89/501A44EA $noname  JP2 JUMPER {Lib=JUMPER}
+  (    1 N-000013 )
+  (    2 GND )
+ )
+ ( /5017DC89/501A44A4 $noname  JP1 JUMPER {Lib=JUMPER}
+  (    1 N-000006 )
+  (    2 +3.3V )
+ )
+ ( /5017DC89/501A4422 $noname  HS1 HEATSINK {Lib=HEATSINK}
+  (   TH /MCU/thermal )
+ )
+ ( /5017DC89/501A4236 $noname  C1 2.2uF {Lib=C}
+  (    1 N-000006 )
+  (    2 N-000013 )
+ )
+ ( /5017DC89/501A421B $noname  U1 MCP1703-3.3 {Lib=MCP1703}
+  (    1 N-000014 )
+  (    2 N-000013 )
+  (    3 N-000006 )
+  (   TH /MCU/thermal )
+ )
+ ( /5017DC89/501A4204 $noname  J1 MINI-USB {Lib=MINI-USB}
+  (    1 N-000014 )
+  (    2 N-000004 )
+  (    3 N-000002 )
+  (    4 ? )
+  (    5 N-000013 )
+  (   Sh N-000013 )
+ )
+ ( /5017DC89/501908FB $noname  P1 CONN_4 {Lib=CONN_4}
+  (    1 ? )
+  (    2 N-000030 )
+  (    3 N-000035 )
+  (    4 N-000037 )
+ )
+ ( /5017DC89/501908DC $noname  P4 CONN_4 {Lib=CONN_4}
+  (    1 N-000039 )
+  (    2 N-000041 )
+  (    3 N-000043 )
+  (    4 N-000024 )
+ )
+ ( /5017DC89/501908D6 $noname  P6 CONN_4 {Lib=CONN_4}
+  (    1 /MCU/pin22 )
+  (    2 /MCU/pin21 )
+  (    3 /MCU/pin20 )
+  (    4 /MCU/pin19 )
+ )
+ ( /5017DC89/501908D0 $noname  P5 CONN_4 {Lib=CONN_4}
+  (    1 N-000042 )
+  (    2 N-000044 )
+  (    3 N-000021 )
+  (    4 N-000025 )
+ )
+ ( /5017DC89/501908BF $noname  P3 CONN_4 {Lib=CONN_4}
+  (    1 /MCU/pin11 )
+  (    2 /MCU/pin10 )
+  (    3 /MCU/pin9 )
+  (    4 /MCU/pin6 )
+ )
+ ( /5017DC89/501908AE $noname  P2 CONN_4 {Lib=CONN_4}
+  (    1 N-000052 )
+  (    2 N-000040 )
+  (    3 N-000053 )
+  (    4 N-000054 )
+ )
+ ( /5017DC89/5019089E $noname  P10 CONN_4 {Lib=CONN_4}
+  (    1 /MCU/pin63 )
+  (    2 /MCU/pin59 )
+  (    3 /MCU/VDDCORE )
+  (    4 ? )
+ )
+ ( /5017DC89/5019088B $noname  P11 CONN_2 {Lib=CONN_2}
+  (    1 N-000064 )
+  (    2 /MCU/pin53 )
+ )
+ ( /5017DC89/5019084E $noname  P12 CONN_4 {Lib=CONN_4}
+  (    1 /MCU/pin52 )
+  (    2 /MCU/pin51 )
+  (    3 /MCU/pin50 )
+  (    4 /MCU/pin49 )
+ )
+ ( /5017DC89/50190837 $noname  P13 CONN_4 {Lib=CONN_4}
+  (    1 /MCU/pin48 )
+  (    2 /MCU/pin47 )
+  (    3 GND )
+  (    4 +3.3V )
+ )
+ ( /5017DC89/5019080C $noname  P7 CONN_4 {Lib=CONN_4}
+  (    1 N-000049 )
+  (    2 N-000048 )
+  (    3 N-000047 )
+  (    4 N-000046 )
+ )
+ ( /5017DC89/50190809 $noname  P8 CONN_4 {Lib=CONN_4}
+  (    1 N-000045 )
+  (    2 N-000063 )
+  (    3 N-000071 )
+  (    4 N-000050 )
+ )
+ ( /5017DC89/501907FC $noname  P9 CONN_4 {Lib=CONN_4}
+  (    1 N-000059 )
+  (    2 N-000058 )
+  (    3 N-000057 )
+  (    4 N-000056 )
+ )
+ ( /5017DC89/50190460 $noname  X1 WATCH-CRYSTAL {Lib=WATCH-CRYSTAL}
+  (    1 N-000016 )
+  (    2 N-000017 )
+ )
+ ( /5017DC89/50190450 $noname  X2 16MHz {Lib=CRYSTAL}
+  (    1 /MCU/xout )
+  (    2 /MCU/xin )
+ )
+ ( /5017DC89/5017F251 $noname  IC1 ATSAM3S2BA {Lib=ATSAM3S2BA}
+  (    1 N-000054 )
+  (    2 GND )
+  (    3 N-000053 )
+  (    4 N-000040 )
+  (    5 N-000052 )
+  (    6 /MCU/pin6 )
+  (    7 +3.3V )
+  (    8 /MCU/VDDCORE )
+  (    9 /MCU/pin9 )
+  (   10 /MCU/pin10 )
+  (   11 /MCU/pin11 )
+  (   12 /MCU/VDDCORE )
+  (   13 N-000025 )
+  (   14 N-000021 )
+  (   15 N-000044 )
+  (   16 N-000042 )
+  (   17 GND )
+  (   18 +3.3V )
+  (   19 /MCU/pin19 )
+  (   20 /MCU/pin20 )
+  (   21 /MCU/pin21 )
+  (   22 /MCU/pin22 )
+  (   23 N-000024 )
+  (   24 /MCU/VDDCORE )
+  (   25 N-000043 )
+  (   26 N-000041 )
+  (   27 N-000039 )
+  (   28 N-000037 )
+  (   29 N-000035 )
+  (   30 N-000030 )
+  (   31 N-000016 )
+  (   32 N-000017 )
+  (   33 N-000056 )
+  (   34 N-000057 )
+  (   35 N-000058 )
+  (   36 N-000059 )
+  (   37 N-000050 )
+  (   38 N-000071 )
+  (   39 N-000063 )
+  (   40 N-000045 )
+  (   41 N-000046 )
+  (   42 N-000047 )
+  (   43 N-000048 )
+  (   44 N-000049 )
+  (   45 +3.3V )
+  (   46 GND )
+  (   47 /MCU/pin47 )
+  (   48 /MCU/pin48 )
+  (   49 /MCU/pin49 )
+  (   50 /MCU/pin50 )
+  (   51 /MCU/pin51 )
+  (   52 /MCU/pin52 )
+  (   53 /MCU/pin53 )
+  (   54 /MCU/VDDCORE )
+  (   55 N-000064 )
+  (   56 /MCU/usb-minus )
+  (   57 /MCU/usb-plus )
+  (   58 +3.3V )
+  (   59 /MCU/pin59 )
+  (   60 GND )
+  (   61 /MCU/xout )
+  (   62 /MCU/xin )
+  (   63 /MCU/pin63 )
+  (   64 /MCU/VDDCORE )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component HOLE2
+ M3hole_fr
+ *hole_fr
+$endlist
+$component HOLE1
+ M3hole_fr
+ *hole_fr
+$endlist
+$component SW2
+ switch*
+$endlist
+$component SW1
+ switch*
+$endlist
+$component C17
+ CP*
+ SM*
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C12
+ CP*
+ SM*
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component U1
+ SOT-223
+$endlist
+$component X1
+ TC83_fr
+ TC26_fr
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "+3.3V" "+3.3V"
+ C12 1
+ C9 1
+ C21 1
+ D2 1
+ C4 1
+ C10 1
+ C17 1
+ IC1 7
+ JP1 2
+ IC1 58
+ SW1 2
+ IC1 18
+ C2 2
+ P13 4
+ IC1 45
+ C20 1
+ C18 1
+Net 2 "" ""
+ J1 3
+ R2 1
+Net 3 "" ""
+ JP4 1
+ R2 2
+Net 4 "" ""
+ R1 1
+ J1 2
+Net 5 "" ""
+ JP3 1
+ R1 2
+Net 6 "" ""
+ U1 3
+ JP1 1
+ C1 1
+Net 7 "GND" "GND"
+ IC1 2
+ IC1 60
+ IC1 17
+ IC1 46
+ P13 3
+ C19 1
+ C18 2
+ C20 2
+ C21 2
+ HOLE1 1
+ HOLE2 1
+ SW2 2
+ C10 2
+ R4 2
+ C13 2
+ C12 2
+ C15 2
+ C14 2
+ C16 2
+ R3 2
+ C17 2
+ C6 2
+ C8 2
+ C9 2
+ C11 2
+ JP2 2
+ C7 1
+ C4 2
+ C2 1
+ C5 1
+ C3 2
+Net 8 "/MCU/pin10" "pin10"
+ P3 2
+ IC1 10
+Net 9 "/MCU/pin11" "pin11"
+ P3 1
+ IC1 11
+Net 12 "/MCU/thermal" "thermal"
+ HS1 TH
+ U1 TH
+Net 13 "" ""
+ JP2 1
+ U1 2
+ J1 Sh
+ C1 2
+ J1 5
+Net 14 "" ""
+ U1 1
+ J1 1
+Net 15 "" ""
+ D2 2
+ R4 1
+Net 16 "" ""
+ X1 1
+ C13 1
+ IC1 31
+Net 17 "" ""
+ X1 2
+ C14 1
+ IC1 32
+Net 18 "" ""
+ D1 2
+ R3 1
+Net 21 "" ""
+ IC1 14
+ P5 3
+Net 22 "/MCU/pin63" "pin63"
+ IC1 63
+ P10 1
+Net 23 "/MCU/pin53" "pin53"
+ IC1 53
+ P11 2
+Net 24 "" ""
+ IC1 23
+ P4 4
+Net 25 "" ""
+ IC1 13
+ P5 4
+Net 26 "/MCU/pin52" "pin52"
+ P12 1
+ IC1 52
+Net 27 "/MCU/pin22" "pin22"
+ IC1 22
+ P6 1
+Net 28 "/MCU/pin51" "pin51"
+ IC1 51
+ P12 2
+Net 29 "/MCU/pin50" "pin50"
+ P12 3
+ IC1 50
+Net 30 "" ""
+ IC1 30
+ P1 2
+Net 31 "/MCU/pin20" "pin20"
+ P6 3
+ IC1 20
+Net 32 "/MCU/pin6" "pin6"
+ P3 4
+ IC1 6
+Net 33 "/MCU/pin59" "pin59"
+ IC1 59
+ P10 2
+Net 34 "/MCU/pin49" "pin49"
+ IC1 49
+ P12 4
+Net 35 "" ""
+ IC1 29
+ P1 3
+Net 36 "/MCU/pin48" "pin48"
+ IC1 48
+ P13 1
+Net 37 "" ""
+ IC1 28
+ P1 4
+Net 38 "/MCU/usb-plus" "usb-plus"
+ IC1 57
+ JP4 2
+Net 39 "" ""
+ IC1 27
+ P4 1
+Net 40 "" ""
+ IC1 4
+ P2 2
+Net 41 "" ""
+ P4 2
+ IC1 26
+Net 42 "" ""
+ P5 1
+ IC1 16
+Net 43 "" ""
+ IC1 25
+ P4 3
+Net 44 "" ""
+ P5 2
+ IC1 15
+Net 45 "" ""
+ P8 1
+ IC1 40
+Net 46 "" ""
+ IC1 41
+ P7 4
+Net 47 "" ""
+ IC1 42
+ P7 3
+Net 48 "" ""
+ IC1 43
+ P7 2
+Net 49 "" ""
+ P7 1
+ IC1 44
+Net 50 "" ""
+ P8 4
+ IC1 37
+Net 52 "" ""
+ P2 1
+ IC1 5
+Net 53 "" ""
+ P2 3
+ IC1 3
+Net 54 "" ""
+ C7 2
+ IC1 1
+ P2 4
+Net 55 "/MCU/pin9" "pin9"
+ P3 3
+ IC1 9
+Net 56 "" ""
+ IC1 33
+ P9 4
+Net 57 "" ""
+ IC1 34
+ P9 3
+Net 58 "" ""
+ P9 2
+ IC1 35
+Net 59 "" ""
+ IC1 36
+ P9 1
+Net 60 "/MCU/xin" "xin"
+ X2 2
+ IC1 62
+ C15 1
+Net 61 "/MCU/VDDCORE" "VDDCORE"
+ P10 3
+ C19 2
+ IC1 8
+ C3 1
+ C5 2
+ IC1 24
+ C8 1
+ IC1 12
+ IC1 54
+ C6 1
+ IC1 64
+ C11 1
+Net 62 "/MCU/xout" "xout"
+ IC1 61
+ X2 1
+ C16 1
+Net 63 "" ""
+ P8 2
+ SW2 1
+ IC1 39
+Net 64 "" ""
+ P11 1
+ IC1 55
+ SW1 1
+Net 65 "/MCU/pin21" "pin21"
+ IC1 21
+ P6 2
+Net 66 "/MCU/pin47" "pin47"
+ IC1 47
+ P13 2
+Net 67 "/MCU/usb-minus" "usb-minus"
+ JP3 2
+ IC1 56
+Net 70 "/MCU/pin19" "pin19"
+ P6 4
+ IC1 19
+Net 71 "" ""
+ D1 1
+ IC1 38
+ P8 3
+}
+#End
