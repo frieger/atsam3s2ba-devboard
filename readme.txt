@@ -1,5 +1,9 @@
 Cortex-M3 development platform
 
+************************
+* UNTESTED, DO NOT USE *
+************************
+
 Features:
 - 5x5 cm size
 - Provides breakout headers to almost all pins
