@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 05/08/2012 01:15:51
+EESchema Schematic File Version 2  date 05/08/2012 19:03:10
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 2
 Title "ATSAM3S2BA development board"
-Date "4 aug 2012"
+Date "5 aug 2012"
 Rev "1"
 Comp ""
 Comment1 ""
@@ -45,6 +45,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 10450 1400 0    30   ~ 0
+see documentation\nfor capacitor values
+Text Notes 2950 5350 0    30   ~ 0
+see documentation\nfor capacitor values
+Text Notes 6150 7450 0    40   ~ 0
+Recommended:\nPanasonic EEUFR1C101H
 Text Notes 9950 5050 0    60   ~ 0
 Temperature sensor
 Wire Notes Line
@@ -632,7 +638,7 @@ Text Label 9150 1450 0    40   ~ 0
 xout
 Text Label 9150 1350 0    40   ~ 0
 xin
-Text Notes 5850 7450 0    40   ~ 0
+Text Notes 5800 6600 0    40   ~ 0
 10uF tantalum\n100uF electrolytic
 Text Notes 4700 7050 0    40   ~ 0
 jumpers for\nusb power

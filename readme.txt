@@ -16,28 +16,28 @@ Features:
 
 
 Components needed: (* denotes optional component, see description)
-Ceramic chip capacitor, 0603, 100 nF			10x*		C3, C4, C5, C6, C8, C9, C11, C12, C21, C22*
-Ceramic chip capacitor, 0603, 2.2 uF			6x			C1, C7, C10, C18, C19, C20
-Ceramic chip capacitor, 0805, 10 uF				1x			C2
-Tantalum chip capacitor, Package C, 10 uF		1x			C17
-Panasonic capacitor, 100 uF						1x			C12
-Ceramic chip capacitor for crystals, 0603		4x*			C13*, C14*, C15, C16 (value see below)
-LED, 0603										2x			D1, D2 (value see below)
-Resistor for USB, 0603	(find out value!)		2x			R1, R2
-Resistor for LED, 0603							2x			R3, R4 (value see below)
-Resistor for I2C, 0603, 4.7k					2x*			R5*, R6*
-Watch crystal, 32KiHz, TC26						1x*			X1, when using watch crystal, see product line
-Crystal, 16 MHz, HC49							1x			X2
-MCU, ATSAM3S2BA, TQFP-64						1x			IC1
-I2C Temp sensor, TCN75A, MSOP-8					1x*			IC2
-Pin header, 2x1									4x			Jumper headers USB, GND, 3.3V
-Jumpers											4x			Jumpers USB, GND, 3.3V
-MCP1703-3.3	voltage regulator, SOT-223			1x			U1
-Push switch, 6x6mm, through-hole				2x			Reset, Erase switch
-Mini-USB-B socket								1x			J1
-Headers (male/female), 1x16						2x			board edges
-Headers (male/female), 1x18						1x			board edges
-Headers (male/female), 1x2						1x*			when not using watch crystal, see product line
+Ceramic chip capacitor, 0603, 100 nF					10x*		C3, C4, C5, C6, C8, C9, C11, C12, C21, C22*
+Ceramic chip capacitor, 0603, 2.2 uF					6x			C1, C7, C10, C18, C19, C20
+Ceramic chip capacitor, 0805, 10 uF						1x			C2
+Tantalum chip capacitor, Package C, 10 uF				1x			C17
+Electrolytic capacitor, 100 uF, Panasonic EEUFR1C101H	1x			C12
+Ceramic chip capacitor for crystals, 0603				4x*			C13*, C14*, C15, C16 (value see below)
+LED, 0603												2x			D1, D2 (value see below)
+Resistor for USB, 0603	(find out value!)				2x			R1, R2
+Resistor for LED, 0603									2x			R3, R4 (value see below)
+Resistor for I2C, 0603, 4.7k							2x*			R5*, R6*
+Watch crystal, 32KiHz, TC26								1x*			X1, when using watch crystal, see product line
+Crystal, 16 MHz, HC49									1x			X2
+MCU, ATSAM3S2BA, TQFP-64								1x			IC1
+I2C Temp sensor, TCN75A, MSOP-8							1x*			IC2
+Pin header, 2x1											4x			Jumper headers USB, GND, 3.3V
+Jumpers													4x			Jumpers USB, GND, 3.3V
+MCP1703-3.3	voltage regulator, SOT-223					1x			U1
+Push switch, 6x6mm, through-hole						2x			Reset, Erase switch
+Mini-USB-B socket										1x			J1
+Headers (male/female), 1x16								2x			board edges
+Headers (male/female), 1x18								1x			board edges
+Headers (male/female), 1x2								1x*			when not using watch crystal, see product line
 
 
 Product line (select either a.i or a.ii; optionally, select b):
