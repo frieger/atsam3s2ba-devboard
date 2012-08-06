@@ -12,6 +12,7 @@ Features:
 - On-board usb-powered voltage regulator
 - Low-cost I2C temperature sensor
 - User LED
+- 2 user switches
 - Convenient Flash erase and reset switches
 
 
@@ -23,7 +24,7 @@ Tantalum chip capacitor, Package C, 10 uF				1x			C17
 Electrolytic capacitor, 100 uF, Panasonic EEUFR1C101H	1x			C12
 Ceramic chip capacitor for crystals, 0603				4x*			C13*, C14*, C15, C16 (value see below)
 LED, 0603												2x			D1, D2 (value see below)
-Resistor for USB, 0603	(find out value!)				2x			R1, R2
+Resistor for USB, 0603, 27R								2x			R1, R2
 Resistor for LED, 0603									2x			R3, R4 (value see below)
 Resistor for I2C, 0603, 4.7k							2x*			R5*, R6*
 Watch crystal, 32KiHz, TC26								1x*			X1, when using watch crystal, see product line
@@ -33,7 +34,7 @@ I2C Temp sensor, TCN75A, MSOP-8							1x*			IC2
 Pin header, 2x1											4x			Jumper headers USB, GND, 3.3V
 Jumpers													4x			Jumpers USB, GND, 3.3V
 MCP1703-3.3	voltage regulator, SOT-223					1x			U1
-Push switch, 6x6mm, through-hole						2x			Reset, Erase switch
+Push switch, 6x6mm, through-hole						4x			Reset, Erase switch, 2 user switches
 Mini-USB-B socket										1x			J1
 Headers (male/female), 1x16								2x			board edges
 Headers (male/female), 1x18								1x			board edges
@@ -85,4 +86,8 @@ Not recommended to run LEDs at 20 mA from the MCU. Low-current LEDs recommended.
 
 
 USB resistors
-TODO: Find out value of USB resistors from Atmel datasheet
+TODO: Find out value of USB resistors from Atmel datasheet.
+TODO: Find datasheet
+
+SAM3S-EK development board user guide, p47 says 27R
+SAM3S2-EK development board user guide, p47, says 27R
