@@ -1,8 +1,10 @@
 Cortex-M3 development platform
 
-************************
-* UNTESTED, DO NOT USE *
-************************
+**********************************
+* UNTESTED, USE AT YOUR OWN RISK *
+**********************************
+(PCBs sent off to fabrication)
+
 
 Features:
 - 5x5 cm size

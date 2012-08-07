@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date 06/08/2012 15:45:52
+PCBNEW-BOARD Version 1 date 07/08/2012 11:34:05
 
 # Created by Pcbnew(2012-01-19 BZR 3256)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "6 aug 2012"
+Date "7 aug 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -60,12 +60,12 @@ TextPcbSize 600 800
 EdgeModWidth 150
 TextModSize 600 600
 TextModWidth 120
-PadSize 600 600
-PadDrill 320
-Pad2MaskClearance 100
+PadSize 197 1102
+PadDrill 0
+Pad2MaskClearance 50
 GridOrigin 11811 11811
 AuxiliaryAxisOrg 11811 11811
-PcbPlotParams (pcbplotparams (layerselection 15761409) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue false) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory out/))
+PcbPlotParams (pcbplotparams (layerselection 15761409) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue false) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory out/))
 $EndSETUP
 
 $EQUIPOT
@@ -437,7 +437,7 @@ Po 394 0
 $EndPAD
 $EndMODULE  CP-Radial-5mmDia-2mmPins
 $MODULE miniusb-b
-Po 12402 26969 900 0 501C487C 501A7731 ~~
+Po 12402 26969 900 0 5020E109 501A7731 ~~
 Li miniusb-b
 Sc 501A7731
 AR /5017DC89/501A4204
@@ -483,6 +483,7 @@ Dr 0 0 0
 At SMD N 00440001
 Ne 31 "N-000010"
 Po 1752 2303
+.SolderMask 1
 $EndPAD
 $PAD
 Sh "2" R 197 1102 0 0 900
@@ -490,6 +491,7 @@ Dr 0 0 0
 At SMD N 00440001
 Ne 30 "N-000009"
 Po 1437 2303
+.SolderMask 1
 $EndPAD
 $PAD
 Sh "1" R 197 1102 0 0 900
@@ -497,6 +499,7 @@ Dr 0 0 0
 At SMD N 00440001
 Ne 29 "N-000008"
 Po 1122 2303
+.SolderMask 1
 $EndPAD
 $PAD
 Sh "4" R 197 1102 0 0 900
@@ -504,6 +507,7 @@ Dr 0 0 0
 At SMD N 00440001
 Ne 0 ""
 Po 2067 2303
+.SolderMask 1
 $EndPAD
 $PAD
 Sh "5" R 197 1102 0 0 900
@@ -511,6 +515,7 @@ Dr 0 0 0
 At SMD N 00440001
 Ne 61 "N-000062"
 Po 2382 2303
+.SolderMask 1
 $EndPAD
 $PAD
 Sh "" C 500 500 0 0 900
